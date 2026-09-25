@@ -21,7 +21,7 @@ jobs:
           devices = json.load(sys.stdin)["devices"]
           print(next(d["udid"] for rt, ds in devices.items() if "iOS" in rt for d in ds if d["name"].startswith("iPhone")))')
           echo "id=$ID" >> "$GITHUB_OUTPUT"
-      - name: Unit tests (ad-hoc signed, neutral prefix)
+      - name: Unit tests (ad-hoc signed, no team)
         run: |
           xcodebuild test -project KalorienKompass.xcodeproj -scheme KalorienKompass \
             -destination "platform=iOS Simulator,id=${{ steps.sim.outputs.id }}" \
