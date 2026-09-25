@@ -1,0 +1,8099 @@
+{
+  "sourceLanguage": "de",
+  "strings": {
+    "": {},
+    "%.1f": {},
+    "%@": {},
+    "%@ %@": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "new",
+            "value": "%1$@ %2$@"
+          }
+        }
+      }
+    },
+    "%@ Kaffee eingetragen. Heute: %lld von %lld Tassen, %lld mg Koffein.": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "new",
+            "value": "%1$@ Kaffee eingetragen. Heute: %2$lld von %3$lld Tassen, %4$lld mg Koffein."
+          }
+        }
+      }
+    },
+    "%@ L": {},
+    "%@ kg eingetragen (BMI %@). Noch %@ kg bis zum Ziel (%lld%% geschafft).": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "new",
+            "value": "%1$@ kg eingetragen (BMI %2$@). Noch %3$@ kg bis zum Ziel (%4$lld%% geschafft)."
+          }
+        }
+      }
+    },
+    "%@ kg eingetragen. Dein BMI beträgt %@.": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "new",
+            "value": "%1$@ kg eingetragen. Dein BMI beträgt %2$@."
+          }
+        }
+      }
+    },
+    "%@ – zusammen %lld kcal zum %@ eingetragen.": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "new",
+            "value": "%1$@ – zusammen %2$lld kcal zum %3$@ eingetragen."
+          }
+        }
+      }
+    },
+    "%@%.2f kg/%@ × 7.700 ÷ 7": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "new",
+            "value": "%1$@%2$.2f kg/%3$@ × 7.700 ÷ 7"
+          }
+        }
+      }
+    },
+    "%@%@: %lld kcal, %lldg Protein, %lldg Kohlenhydrate, %lldg Fett pro 100g.": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "new",
+            "value": "%1$@%2$@: %3$lld kcal, %4$lldg Protein, %5$lldg Kohlenhydrate, %6$lldg Fett pro 100g."
+          }
+        }
+      }
+    },
+    "%@: %lld kcal aus %lld Einträgen. %@%@.": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "new",
+            "value": "%1$@: %2$lld kcal aus %3$lld Einträgen. %4$@%5$@."
+          }
+        }
+      }
+    },
+    "%@: %lld kcal, %lldg Protein – zum %@ eingetragen.": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "new",
+            "value": "%1$@: %2$lld kcal, %3$lldg Protein – zum %4$@ eingetragen."
+          }
+        }
+      }
+    },
+    "%@: %lld von %lld kcal gegessen, %lld kcal übrig. Protein: %lldg, Kohlenhydrate: %lldg, Fett: %lldg, Ballaststoffe: %lldg.": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "new",
+            "value": "%1$@: %2$lld von %3$lld kcal gegessen, %4$lld kcal übrig. Protein: %5$lldg, Kohlenhydrate: %6$lldg, Fett: %7$lldg, Ballaststoffe: %8$lldg."
+          }
+        }
+      }
+    },
+    "%@L": {},
+    "%lld": {},
+    "%lld %%": {},
+    "%lld %@": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "new",
+            "value": "%1$lld %2$@"
+          }
+        }
+      }
+    },
+    "%lld + (%lld)": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "new",
+            "value": "%1$lld + (%2$lld)"
+          }
+        }
+      }
+    },
+    "%lld / %lld kcal": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "new",
+            "value": "%1$lld / %2$lld kcal"
+          }
+        }
+      }
+    },
+    "%lld Treffer für \"%@\": %@%@.": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "new",
+            "value": "%1$lld Treffer für \"%2$@\": %3$@%4$@."
+          }
+        }
+      }
+    },
+    "%lld cm": {},
+    "%lld g": {},
+    "%lld kcal": {},
+    "%lld kcal %@": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "new",
+            "value": "%1$lld kcal %2$@"
+          }
+        }
+      }
+    },
+    "%lld kcal als \"%@\" zum %@ hinzugefügt.": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "new",
+            "value": "%1$lld kcal als \"%2$@\" zum %3$@ hinzugefügt."
+          }
+        }
+      }
+    },
+    "%lld mg": {},
+    "%lld min": {},
+    "%lld ml": {},
+    "%lld ml Wasser hinzugefügt. Aktuell: %@ von %@ Liter.": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "new",
+            "value": "%1$lld ml Wasser hinzugefügt. Aktuell: %2$@ von %3$@ Liter."
+          }
+        }
+      }
+    },
+    "%lld × %.3f (%@)": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "new",
+            "value": "%1$lld × %2$.3f (%3$@)"
+          }
+        }
+      }
+    },
+    "%lld − %lld = %lld kcal": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "new",
+            "value": "%1$lld − %2$lld = %3$lld kcal"
+          }
+        }
+      }
+    },
+    "%lld%%": {},
+    "%lld%@": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "new",
+            "value": "%1$lld%2$@"
+          }
+        }
+      }
+    },
+    "%lld:00 – %lld:00": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "new",
+            "value": "%1$lld:00 – %2$lld:00"
+          }
+        }
+      }
+    },
+    "%lldg": {},
+    "%lldg %@ zum %@ hinzugefügt (%lld kcal).": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "new",
+            "value": "%1$lldg %2$@ zum %3$@ hinzugefügt (%4$lld kcal)."
+          }
+        }
+      }
+    },
+    "(%@ %lld kcal)": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "new",
+            "value": "(%1$@ %2$lld kcal)"
+          }
+        }
+      }
+    },
+    "(%@)": {},
+    "+%lld": {},
+    "/%lld": {},
+    "/100g": {},
+    "0": {},
+    "10 × %.1f + 6,25 × %lld − 5 × %lld %@": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "new",
+            "value": "10 × %1$.1f + 6,25 × %2$lld − 5 × %3$lld %4$@"
+          }
+        }
+      }
+    },
+    "100": {},
+    "= %lld g": {},
+    "= %lld kcal": {},
+    "= %lld kcal/%@": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "new",
+            "value": "= %1$lld kcal/%2$@"
+          }
+        }
+      }
+    },
+    "Abendessen": {},
+    "Aktive Kalorien: %lld kcal (davon %lld kcal Alltagsaktivität, %lld kcal Training). Angerechnet: %lld kcal (%lld%% der Trainings-Kalorien).": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "new",
+            "value": "Aktive Kalorien: %1$lld kcal (davon %2$lld kcal Alltagsaktivität, %3$lld kcal Training). Angerechnet: %4$lld kcal (%5$lld%% der Trainings-Kalorien)."
+          }
+        }
+      }
+    },
+    "Alle Checks ausfuehren": {},
+    "BMI %.1f": {},
+    "BMI: %.1f": {},
+    "Ballaststoffe (g)": {},
+    "Barcode": {},
+    "Barcode nachschlagen": {},
+    "CloudKit": {},
+    "Datum": {},
+    "Dein Gewicht: %@ kg. BMI: %@ (%@).": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "new",
+            "value": "Dein Gewicht: %1$@ kg. BMI: %2$@ (%3$@)."
+          }
+        }
+      }
+    },
+    "Dein Ziel: Gewicht halten. Aktuelles Gewicht: %@ kg.": {},
+    "Diagnose-Log": {},
+    "Du hast %@ von %@ Liter getrunken (%lld von %lld Gläsern). Es fehlen noch %lld ml.": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "new",
+            "value": "Du hast %1$@ von %2$@ Liter getrunken (%3$lld von %4$lld Gläsern). Es fehlen noch %5$lld ml."
+          }
+        }
+      }
+    },
+    "Du hast %lld von %lld Schritten geschafft (%lld%%). Es fehlen noch %lld Schritte.": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "new",
+            "value": "Du hast %1$lld von %2$lld Schritten geschafft (%3$lld%%). Es fehlen noch %4$lld Schritte."
+          }
+        }
+      }
+    },
+    "Du hast dein Ziel um %lld kcal überschritten. Gegessen: %lld von %lld kcal.": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "new",
+            "value": "Du hast dein Ziel um %1$lld kcal überschritten. Gegessen: %2$lld von %3$lld kcal."
+          }
+        }
+      }
+    },
+    "Du hast noch %lld kcal übrig. Bisher gegessen: %lld von %lld kcal.": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "new",
+            "value": "Du hast noch %1$lld kcal übrig. Bisher gegessen: %2$lld von %3$lld kcal."
+          }
+        }
+      }
+    },
+    "Du liegst %lld ml zurück. Noch %lld ml bis zum Ziel.": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "new",
+            "value": "Du liegst %1$lld ml zurück. Noch %2$lld ml bis zum Ziel."
+          }
+        }
+      }
+    },
+    "Durchsucht die Lebensmittel-Datenbank nach Name.": {},
+    "Eingetragenes Essen": {},
+    "Eintraege": {},
+    "Eintrag zurücknehmen": {},
+    "Eintragen": {},
+    "Erfasst dein aktuelles Körpergewicht.": {},
+    "Erstellt einen Schnelleintrag mit Kalorien und optionalen Makros.": {},
+    "Essen per Sprache": {},
+    "Essen per Sprache eintragen": {},
+    "Fett": {},
+    "Fett (g)": {},
+    "Findet ein Lebensmittel anhand des EAN/UPC-Barcodes.": {},
+    "Frühstück": {},
+    "Fügt Wasser zur heutigen Aufnahme hinzu.": {},
+    "Fügt ein bekanntes Lebensmittel zu einer Mahlzeit hinzu.": {},
+    "Für %@ sind noch keine Einträge vorhanden.": {},
+    "Gegessen": {},
+    "Gesamt": {},
+    "Gewicht abfragen": {},
+    "Gewicht eintragen": {},
+    "Gewicht in kg": {},
+    "Hast du dein %@ schon getrackt?": {},
+    "Heute %lld kcal durch Training verbrannt. Gesamt-Aktivität: %lld kcal.": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "new",
+            "value": "Heute %1$lld kcal durch Training verbrannt. Gesamt-Aktivität: %2$lld kcal."
+          }
+        }
+      }
+    },
+    "Heute keine Workouts, aber %lld kcal Alltagsaktivität.": {},
+    "Heute noch keine Aktivität erfasst. Daten kommen aus HealthKit.": {},
+    "Heute noch keine Aktivitätskalorien erfasst. Daten kommen aus HealthKit.": {},
+    "Häufig gegessenes Lebensmittel per Tipp eintragen": {},
+    "Häufig gegessenes Lebensmittel per Tipp eintragen.": {},
+    "KI Schnelleintrag": {},
+    "KI-Erkennung fehlgeschlagen: %@": {},
+    "KI-Schätzung fehlgeschlagen: %@": {},
+    "Kaffee trinken": {},
+    "Kaffeepause": {},
+    "Kalorien": {},
+    "Kalorien (kcal)": {},
+    "Kalorien eintragen": {},
+    "KalorienKompass %@ (%@) • %@": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "new",
+            "value": "KalorienKompass %1$@ (%2$@) • %3$@"
+          }
+        }
+      }
+    },
+    "Kein Claude API-Key konfiguriert. Bitte in den App-Einstellungen eintragen.": {},
+    "Kein Gewicht eingetragen. Trage dein Gewicht in der App oder per Siri ein.": {},
+    "Kein Gewichtsziel eingestellt. Konfiguriere dein Ziel in den Einstellungen.": {},
+    "Kein Lebensmittel mit dem Namen \"%@\" gefunden. Bitte suche es zuerst in der App.": {},
+    "Kein Produkt mit Barcode %@ gefunden.": {},
+    "Keine Diagnose": {},
+    "Keine Lebensmittel für \"%@\" gefunden. Suche in der App für Online-Ergebnisse.": {},
+    "Keine Speise erkannt.": {},
+    "Kohlenhydrate": {},
+    "Kohlenhydrate (g)": {},
+    "Kopieren": {},
+    "Lebensmittel": {},
+    "Lebensmittel eintragen": {},
+    "Lebensmittel per Freitext eingeben — KI schätzt Kalorien automatisch.": {},
+    "Lebensmittel suchen": {},
+    "Log loeschen": {},
+    "Mahlzeit": {},
+    "Mahlzeit ändern": {},
+    "Mahlzeit-Zusammenfassung": {},
+    "Makro-Status": {},
+    "Menge in Gramm": {},
+    "Menge in ml": {},
+    "Mittagessen": {},
+    "Name": {},
+    "Nur Schreibtest": {},
+    "OK": {},
+    "Preset konfigurieren": {},
+    "Preset-Lebensmittel eintragen": {},
+    "Protein": {},
+    "Protein (g)": {},
+    "Protein: %lldg von %lldg (%lld%%), Kohlenhydrate: %lldg von %lldg (%lld%%), Fett: %lldg von %lldg (%lld%%), Ballaststoffe: %lldg von %lldg (%lld%%).": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "new",
+            "value": "Protein: %1$lldg von %2$lldg (%3$lld%%), Kohlenhydrate: %4$lldg von %5$lldg (%6$lld%%), Fett: %7$lldg von %8$lldg (%9$lld%%), Ballaststoffe: %10$lldg von %11$lldg (%12$lld%%)."
+          }
+        }
+      }
+    },
+    "Restkalorien abfragen": {},
+    "Rückgängig": {},
+    "Sag, was du gegessen hast — die KI schätzt die Nährwerte und trägt es ein.": {},
+    "Schnell-Eintrag": {},
+    "Schnelleingabe öffnen": {},
+    "Schritte abfragen": {},
+    "Schrittziel erreicht! Du hast %lld von %lld Schritten geschafft.": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "new",
+            "value": "Schrittziel erreicht! Du hast %1$lld von %2$lld Schritten geschafft."
+          }
+        }
+      }
+    },
+    "Snack": {},
+    "Start: %@ kg, Aktuell: %@ kg, Ziel: %@ kg.": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "new",
+            "value": "Start: %1$@ kg, Aktuell: %2$@ kg, Ziel: %3$@ kg."
+          }
+        }
+      }
+    },
+    "Suchbegriff": {},
+    "Tagesübersicht": {},
+    "Tassen": {},
+    "Tippe auf \"Alle Checks\", um die Diagnose zu starten.": {},
+    "Trägt getrunkenen Kaffee für heute ein.": {},
+    "Verbrannte Kalorien": {},
+    "Vergiss nicht dein %@!": {},
+    "Was hast du gegessen oder getrunken?": {},
+    "Was hast du gegessen?": {},
+    "Wasser trinken": {},
+    "Wasserstand abfragen": {},
+    "Workouts abfragen": {},
+    "Zeigt dein aktuelles Gewicht und den BMI.": {},
+    "Zeigt den Fortschritt zum Gewichtsziel.": {},
+    "Zeigt den aktuellen Stand der Makronährstoffe im Vergleich zum Ziel.": {},
+    "Zeigt die Kalorien- und Makro-Zusammenfassung für einen Tag.": {},
+    "Zeigt die Trainings-Zusammenfassung des heutigen Tages.": {},
+    "Zeigt die aktuelle Wasseraufnahme und das Tagesziel.": {},
+    "Zeigt die durch Aktivität verbrannten Kalorien.": {},
+    "Zeigt die heutigen Schritte und das Schrittziel.": {},
+    "Zeigt die verbleibenden Kalorien fuer heute an.": {},
+    "Zeigt was du bei einer bestimmten Mahlzeit gegessen hast.": {},
+    "Ziel erreicht! Du hast %@ von %@ Liter getrunken (%lld von %lld Gläsern).": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "new",
+            "value": "Ziel erreicht! Du hast %1$@ von %2$@ Liter getrunken (%3$lld von %4$lld Gläsern)."
+          }
+        }
+      }
+    },
+    "Ziel: %@ → %@ kg. Aktuell: %@ kg (%lld%% geschafft). Noch %@ kg.": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "new",
+            "value": "Ziel: %1$@ → %2$@ kg. Aktuell: %3$@ kg (%4$lld%% geschafft). Noch %5$@ kg."
+          }
+        }
+      }
+    },
+    "Zielfortschritt": {},
+    "Zurückgenommen": {},
+    "Zweites Frühstück": {},
+    "action_add_food": {
+      "extractionState": "stale",
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Essen hinzufügen"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Add Food"
+          }
+        }
+      }
+    },
+    "action_add_to_diary": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Zum Tagebuch hinzufügen"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Add to Diary"
+          }
+        }
+      }
+    },
+    "action_plan_for_meal": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Für %@ planen"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Plan for %@"
+          }
+        }
+      }
+    },
+    "action_save": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Speichern"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Save"
+          }
+        }
+      }
+    },
+    "action_scan_barcode": {
+      "extractionState": "stale",
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Barcode scannen"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Scan Barcode"
+          }
+        }
+      }
+    },
+    "active_energy_label": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Aktive Energie"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Active Energy"
+          }
+        }
+      }
+    },
+    "activity_lightly_active": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Meist sitzend"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Lightly Active"
+          }
+        }
+      }
+    },
+    "activity_moderately_active": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Meist gehend"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Moderately Active"
+          }
+        }
+      }
+    },
+    "activity_sedentary": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nur sitzend"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sedentary"
+          }
+        }
+      }
+    },
+    "activity_title": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Aktivität"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Activity"
+          }
+        }
+      }
+    },
+    "activity_very_active": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Körperlich anstrengend"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Very Active"
+          }
+        }
+      }
+    },
+    "add_custom_unit_title": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Neue Einheit"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "New Unit"
+          }
+        }
+      }
+    },
+    "add_food_title": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Essen hinzufügen"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Add Food"
+          }
+        }
+      }
+    },
+    "add_meal_button": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hinzufügen"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Add"
+          }
+        }
+      }
+    },
+    "ai_adjust_details": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Details anpassen"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Adjust details"
+          }
+        }
+      }
+    },
+    "ai_analyzing": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Analysiere..."
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Analyzing..."
+          }
+        }
+      }
+    },
+    "ai_analyzing_hint": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Deine Mahlzeit wird erkannt."
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Your meal is being recognized."
+          }
+        }
+      }
+    },
+    "ai_camera_hint": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Fotografiere deine Mahlzeit. Achte auf gute Beleuchtung."
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Take a photo of your meal. Ensure good lighting."
+          }
+        }
+      }
+    },
+    "ai_camera_title": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "KI-Erkennung"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "AI Recognition"
+          }
+        }
+      }
+    },
+    "ai_components": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bestandteile"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Components"
+          }
+        }
+      }
+    },
+    "ai_confidence": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Konfidenz"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Confidence"
+          }
+        }
+      }
+    },
+    "ai_confidence_high": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hoch"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "High"
+          }
+        }
+      }
+    },
+    "ai_confidence_low": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Niedrig"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Low"
+          }
+        }
+      }
+    },
+    "ai_confidence_medium": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mittel"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Medium"
+          }
+        }
+      }
+    },
+    "ai_confirm_button": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bestätigen und tracken"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Confirm and track"
+          }
+        }
+      }
+    },
+    "ai_error_image_load": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bild konnte nicht geladen werden."
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Could not load image."
+          }
+        }
+      }
+    },
+    "ai_error_network": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Keine Internetverbindung. Versuche es später erneut."
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "No internet connection. Please try again later."
+          }
+        }
+      }
+    },
+    "ai_error_no_key": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bitte hinterlege deinen API-Schlüssel in den Einstellungen."
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Please enter your API key in Settings."
+          }
+        }
+      }
+    },
+    "ai_error_not_food": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Das Bild konnte nicht als Mahlzeit erkannt werden."
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The image could not be recognized as a meal."
+          }
+        }
+      }
+    },
+    "ai_error_parse": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Die Analyse konnte nicht verarbeitet werden. Versuche es erneut."
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The analysis could not be processed. Please try again."
+          }
+        }
+      }
+    },
+    "ai_error_truncated": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Die Antwort war zu lang und wurde abgeschnitten. Teile deine Eingabe in zwei kleinere auf."
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The response was too long and got cut off. Split your entry into two smaller ones."
+          }
+        }
+      }
+    },
+    "ai_estimated_portion": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Geschätzte Portion"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Estimated portion"
+          }
+        }
+      }
+    },
+    "ai_flash_button": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Blitz"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Flash"
+          }
+        }
+      }
+    },
+    "ai_mac_drop_formats": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "JPEG, PNG, HEIC"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "JPEG, PNG, HEIC"
+          }
+        }
+      }
+    },
+    "ai_mac_drop_hint": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Foto hierher ziehen"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Drop photo here"
+          }
+        }
+      }
+    },
+    "ai_mac_file_button": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Datei öffnen…"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Open File…"
+          }
+        }
+      }
+    },
+    "ai_mac_photos_button": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Fotos-Mediathek"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Photos Library"
+          }
+        }
+      }
+    },
+    "ai_no_api_key_error": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kein API-Key konfiguriert. Bitte in den App-Einstellungen eintragen."
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "No API key configured. Please add it in the app settings."
+          }
+        }
+      }
+    },
+    "ai_photos_button": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Fotos"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Photos"
+          }
+        }
+      }
+    },
+    "ai_quick_entry_description": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Beschreibung"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Description"
+          }
+        }
+      }
+    },
+    "ai_quick_entry_error": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Fehler"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Error"
+          }
+        }
+      }
+    },
+    "ai_quick_entry_estimate": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "KI schätzen"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "AI Estimate"
+          }
+        }
+      }
+    },
+    "ai_quick_entry_loading": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Schätze Nährwerte…"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Estimating nutrients…"
+          }
+        }
+      }
+    },
+    "ai_quick_entry_meal": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mahlzeit"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Meal"
+          }
+        }
+      }
+    },
+    "ai_quick_entry_new_estimate": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Neu schätzen"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "New estimate"
+          }
+        }
+      }
+    },
+    "ai_quick_entry_no_key": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kein Claude API-Key – in Einstellungen konfigurieren"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "No Claude API key – configure in Settings"
+          }
+        }
+      }
+    },
+    "ai_quick_entry_nutrients": {
+      "extractionState": "stale",
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nährwerte (Portion)"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nutrients (Portion)"
+          }
+        }
+      }
+    },
+    "ai_quick_entry_placeholder": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "z. B. Currywurst mit Pommes"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "e.g. Currywurst with fries"
+          }
+        }
+      }
+    },
+    "ai_quick_entry_retry": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Erneut versuchen"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Try again"
+          }
+        }
+      }
+    },
+    "ai_quick_entry_title": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "KI Schnelleingabe"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "AI Quick Entry"
+          }
+        }
+      }
+    },
+    "ai_reanalyze_button": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Erneut analysieren"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Re-analyze"
+          }
+        }
+      }
+    },
+    "ai_reanalyze_placeholder": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "z.B. Das ist Käsekuchen, ca. 150g"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "e.g. This is cheesecake, about 150g"
+          }
+        }
+      }
+    },
+    "ai_reanalyze_title": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nicht korrekt erkannt?"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Not recognized correctly?"
+          }
+        }
+      }
+    },
+    "ai_result_title": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mahlzeit erkannt"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Meal Recognized"
+          }
+        }
+      }
+    },
+    "ai_retake_button": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Erneut fotografieren"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Retake photo"
+          }
+        }
+      }
+    },
+    "ai_settings_api_key": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "API-Schlüssel"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "API Key"
+          }
+        }
+      }
+    },
+    "ai_settings_connected": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Verbunden"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Connected"
+          }
+        }
+      }
+    },
+    "ai_settings_cost_hint": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kosten: ca. 0,3 Cent pro Foto (Haiku 3.5)"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cost: approx. 0.3 cents per photo (Haiku 3.5)"
+          }
+        }
+      }
+    },
+    "ai_settings_enter_key": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "API-Schlüssel eingeben"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Enter API key"
+          }
+        }
+      }
+    },
+    "ai_settings_no_key": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Die KI-Erkennung erfordert einen Anthropic API-Schlüssel."
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "AI recognition requires an Anthropic API key."
+          }
+        }
+      }
+    },
+    "ai_settings_status": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "API-Status"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "API Status"
+          }
+        }
+      }
+    },
+    "ai_settings_title": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "KI-Einstellungen"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "AI Settings"
+          }
+        }
+      }
+    },
+    "ai_total_calories": {
+      "extractionState": "stale",
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Gesamtkalorien"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Total calories"
+          }
+        }
+      }
+    },
+    "amount_custom_unit": {
+      "extractionState": "stale",
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Eigene Einheit"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Custom Unit"
+          }
+        }
+      }
+    },
+    "amount_grams": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Gramm"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Grams"
+          }
+        }
+      }
+    },
+    "amount_servings": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Portionen"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Servings"
+          }
+        }
+      }
+    },
+    "amount_type": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mengenart"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Amount Type"
+          }
+        }
+      }
+    },
+    "barcode": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Barcode"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Barcode"
+          }
+        }
+      }
+    },
+    "barcode_scan_hint": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Barcode in den Rahmen halten"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hold barcode within the frame"
+          }
+        }
+      }
+    },
+    "barcode_scanner_title": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Barcode-Scanner"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Barcode Scanner"
+          }
+        }
+      }
+    },
+    "bmi_normal": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Normalgewicht"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Normal"
+          }
+        }
+      }
+    },
+    "bmi_obese_1": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Adipositas I"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Obese I"
+          }
+        }
+      }
+    },
+    "bmi_obese_2": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Adipositas II"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Obese II"
+          }
+        }
+      }
+    },
+    "bmi_obese_3": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Adipositas III"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Obese III"
+          }
+        }
+      }
+    },
+    "bmi_overweight": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Übergewicht"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Overweight"
+          }
+        }
+      }
+    },
+    "bmi_title": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dein BMI"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Your BMI"
+          }
+        }
+      }
+    },
+    "bmi_underweight": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Untergewicht"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Underweight"
+          }
+        }
+      }
+    },
+    "budget_activity": {
+      "extractionState": "manual",
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bewegung"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Everyday movement"
+          }
+        }
+      }
+    },
+    "budget_activity_not_counted %lld": {
+      "extractionState": "manual",
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lld kcal, in dieser Einstellung nicht angerechnet"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lld kcal, not credited with this setting"
+          }
+        }
+      }
+    },
+    "budget_activity_note %lld %lld": {
+      "extractionState": "manual",
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%1$lld kcal ohne Training, davon %2$lld kcal schon im Grundziel enthalten"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%1$lld kcal excluding workouts, of which %2$lld kcal are already part of the base goal"
+          }
+        }
+      }
+    },
+    "budget_base": {
+      "extractionState": "manual",
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Grundziel"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Base goal"
+          }
+        }
+      }
+    },
+    "budget_eaten": {
+      "extractionState": "manual",
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Gegessen"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Eaten"
+          }
+        }
+      }
+    },
+    "budget_goal_today": {
+      "extractionState": "manual",
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ziel heute"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Goal today"
+          }
+        }
+      }
+    },
+    "budget_hint": {
+      "extractionState": "manual",
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Zeigt, wie das Tagesziel zustande kommt"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Shows how the daily goal adds up"
+          }
+        }
+      }
+    },
+    "budget_remaining": {
+      "extractionState": "manual",
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Übrig"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Remaining"
+          }
+        }
+      }
+    },
+    "budget_title": {
+      "extractionState": "manual",
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dein Tagesbudget"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Your daily budget"
+          }
+        }
+      }
+    },
+    "budget_weekend": {
+      "extractionState": "manual",
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Wochenende"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Weekend"
+          }
+        }
+      }
+    },
+    "budget_weekend_note %lld": {
+      "extractionState": "manual",
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lld %% Aufschlag am Wochenende"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lld%% weekend allowance"
+          }
+        }
+      }
+    },
+    "budget_workout": {
+      "extractionState": "manual",
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Training"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Workouts"
+          }
+        }
+      }
+    },
+    "budget_workout_note %lld %lld": {
+      "extractionState": "manual",
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%1$lld kcal, davon %2$lld %% angerechnet"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%1$lld kcal, %2$lld%% credited"
+          }
+        }
+      }
+    },
+    "build_type_debug": {
+      "extractionState": "stale",
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Debug"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Debug"
+          }
+        }
+      }
+    },
+    "build_type_deploy": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Deploy"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Deploy"
+          }
+        }
+      }
+    },
+    "build_type_release": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Release"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Release"
+          }
+        }
+      }
+    },
+    "build_type_testflight": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "TestFlight"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "TestFlight"
+          }
+        }
+      }
+    },
+    "calorie_auto_calories": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kalorienziel automatisch festlegen"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Set calorie goal automatically"
+          }
+        }
+      }
+    },
+    "calorie_bmr": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Grundumsatz (BMR)"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Basal Metabolic Rate"
+          }
+        }
+      }
+    },
+    "calorie_bmr_description": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Der Grundumsatz (BMR = Basal Metabolic Rate) ist die Energie, die dein Körper im Ruhezustand verbraucht — für Atmung, Herzschlag, Organfunktionen und Zellstoffwechsel. Er wird aus Gewicht, Größe, Alter und Geschlecht berechnet."
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Your Basal Metabolic Rate (BMR) is the energy your body uses at complete rest — for breathing, heartbeat, organ function and cell metabolism. It is calculated from weight, height, age and sex."
+          }
+        }
+      }
+    },
+    "calorie_bonus_formula": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bonus = max(0, Apple Watch Aktivität − erwartete Aktivität)"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bonus = max(0, Apple Watch activity − expected activity)"
+          }
+        }
+      }
+    },
+    "calorie_clamped_to_minimum": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sicherheitsminimum:"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Safety minimum:"
+          }
+        }
+      }
+    },
+    "calorie_day_short": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tag"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "day"
+          }
+        }
+      }
+    },
+    "calorie_deficit": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tagesdefizit"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Daily Deficit"
+          }
+        }
+      }
+    },
+    "calorie_deficit_description": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Um Gewicht zu verlieren, musst du weniger Kalorien zu dir nehmen als du verbrauchst. 1 kg Körperfett entspricht ca. 7.700 kcal. Das Tagesdefizit ergibt sich aus deinem Wochenziel geteilt durch 7 Tage."
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "To lose weight, you need to consume fewer calories than you burn. 1 kg of body fat equals approx. 7,700 kcal. The daily deficit is derived from your weekly goal divided by 7 days."
+          }
+        }
+      }
+    },
+    "calorie_formula_description": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Die Mifflin-St-Jeor-Gleichung (1990) gilt als eine der genauesten Formeln zur Berechnung des Grundumsatzes. Sie wurde in zahlreichen Studien validiert und wird von der Academy of Nutrition and Dietetics empfohlen."
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The Mifflin-St Jeor equation (1990) is considered one of the most accurate formulas for estimating basal metabolic rate. It has been validated in numerous studies and is recommended by the Academy of Nutrition and Dietetics."
+          }
+        }
+      }
+    },
+    "calorie_formula_name": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Formel: Mifflin-St-Jeor"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Formula: Mifflin-St Jeor"
+          }
+        }
+      }
+    },
+    "calorie_goal_description": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dein Kalorienziel ist der Gesamtumsatz abzüglich des Tagesdefizits. Es wird nie unter das Sicherheitsminimum gesenkt (1.500 kcal für Männer, 1.200 kcal für Frauen), um eine gesunde Versorgung sicherzustellen."
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Your calorie goal is your TDEE minus the daily deficit. It is never lowered below the safety minimum (1,500 kcal for men, 1,200 kcal for women) to ensure adequate nutrition."
+          }
+        }
+      }
+    },
+    "calorie_healthkit_bonus": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Apple Watch Bonus"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Apple Watch Bonus"
+          }
+        }
+      }
+    },
+    "calorie_healthkit_bonus_description": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bei aktivierter Apple Watch wird dein Kalorienziel nur dann erhöht, wenn deine tatsächliche Bewegungsenergie die im Aktivitätsfaktor bereits enthaltene Aktivität übersteigt. So wird keine Aktivität doppelt gezählt."
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "With Apple Watch enabled, your calorie goal is only increased when your actual movement energy exceeds the activity already included in the activity factor. This prevents double-counting activity."
+          }
+        }
+      }
+    },
+    "calorie_pal_activity": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Erwartete Aktivität (PAL)"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Expected activity (PAL)"
+          }
+        }
+      }
+    },
+    "calorie_pal_step1_label": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "① Erwartete Aktivität (PAL) = TDEE − BMR"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "① Expected activity (PAL) = TDEE − BMR"
+          }
+        }
+      }
+    },
+    "calorie_pal_step2_label": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "② Bonus nur bei Mehrleistung"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "② Bonus only for extra activity"
+          }
+        }
+      }
+    },
+    "calorie_pal_step3_detail_%lld": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Workout-Kalorien × %lld%% werden addiert"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Workout calories × %lld%% are added"
+          }
+        }
+      }
+    },
+    "calorie_pal_step3_label": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "③ Training (Workout-Anrechnung)"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "③ Workout credit"
+          }
+        }
+      }
+    },
+    "calorie_show_calculation": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Berechnung der Kalorien zeigen"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Show calculation"
+          }
+        }
+      }
+    },
+    "calorie_tdee": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Gesamtumsatz (TDEE)"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Total Daily Energy"
+          }
+        }
+      }
+    },
+    "calorie_tdee_description": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Der Gesamtumsatz (TDEE = Total Daily Energy Expenditure) ist dein gesamter täglicher Kalorienverbrauch inklusive Bewegung. Er wird berechnet, indem dein Grundumsatz mit einem Aktivitätsfaktor (PAL-Wert) multipliziert wird."
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Your Total Daily Energy Expenditure (TDEE) is the total number of calories you burn per day including physical activity. It is calculated by multiplying your BMR by a Physical Activity Level (PAL) factor."
+          }
+        }
+      }
+    },
+    "calorie_week_short": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Woche"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "week"
+          }
+        }
+      }
+    },
+    "calorie_your_goal": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dein Kalorienziel"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Your Calorie Goal"
+          }
+        }
+      }
+    },
+    "calories_remaining": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "übrig"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "remaining"
+          }
+        }
+      }
+    },
+    "camera_permission_description": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "KalorienKompass benötigt Zugriff auf die Kamera zum Scannen von Barcodes. Bitte erlaube den Zugriff in den Einstellungen."
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "KalorienKompass needs camera access to scan barcodes. Please allow access in Settings."
+          }
+        }
+      }
+    },
+    "camera_permission_title": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kamerazugriff benötigt"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Camera Access Required"
+          }
+        }
+      }
+    },
+    "cancel": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Abbrechen"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cancel"
+          }
+        }
+      }
+    },
+    "cancel_button": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Abbrechen"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cancel"
+          }
+        }
+      }
+    },
+    "chest_type_body_fact": {
+      "extractionState": "stale",
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Körperfakt"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Body Fact"
+          }
+        }
+      }
+    },
+    "chest_type_motivation": {
+      "extractionState": "stale",
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Motivation"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Motivation"
+          }
+        }
+      }
+    },
+    "chest_type_reflection": {
+      "extractionState": "stale",
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Reflexion"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Reflection"
+          }
+        }
+      }
+    },
+    "chest_type_reward": {
+      "extractionState": "stale",
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Belohnung"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Reward"
+          }
+        }
+      }
+    },
+    "chest_type_statistics": {
+      "extractionState": "stale",
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Statistiken"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Statistics"
+          }
+        }
+      }
+    },
+    "chest_type_story": {
+      "extractionState": "stale",
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Geschichte"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Story"
+          }
+        }
+      }
+    },
+    "close": {
+      "extractionState": "stale",
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Schließen"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Close"
+          }
+        }
+      }
+    },
+    "coffee_cups_count %lld": {
+      "localizations": {
+        "de": {
+          "variations": {
+            "plural": {
+              "one": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%lld Tasse"
+                }
+              },
+              "other": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%lld Tassen"
+                }
+              }
+            }
+          }
+        },
+        "en": {
+          "variations": {
+            "plural": {
+              "one": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%lld cup"
+                }
+              },
+              "other": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%lld cups"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "coffee_cups_max %lld": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "max. %lld Tassen"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "max. %lld cups"
+          }
+        }
+      }
+    },
+    "coffee_streak_label %lld": {
+      "extractionState": "stale",
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Streak: %lld Tage"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Streak: %lld days"
+          }
+        }
+      }
+    },
+    "coffee_title": {
+      "extractionState": "stale",
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kaffee"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Coffee"
+          }
+        }
+      }
+    },
+    "custom_unit_grams_per_unit": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Gramm pro Einheit"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Grams per unit"
+          }
+        }
+      }
+    },
+    "custom_unit_name": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Name der Einheit"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Unit name"
+          }
+        }
+      }
+    },
+    "custom_unit_name_placeholder": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "z.B. Scheibe, Stück, Packung"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "e.g. slice, piece, package"
+          }
+        }
+      }
+    },
+    "date_select": {
+      "extractionState": "stale",
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Datum wählen"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Select Date"
+          }
+        }
+      }
+    },
+    "date_today": {
+      "extractionState": "stale",
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Heute"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Today"
+          }
+        }
+      }
+    },
+    "delete": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Löschen"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Delete"
+          }
+        }
+      }
+    },
+    "delete_entry_confirm_message": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Diese Mahlzeit wird aus dem Tagebuch entfernt. Das kann nicht rueckgaengig gemacht werden."
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "This meal will be removed from your diary. This cannot be undone."
+          }
+        }
+      }
+    },
+    "delete_entry_confirm_title": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Eintrag loeschen?"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Delete entry?"
+          }
+        }
+      }
+    },
+    "dictation_open_system_settings": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Systemeinstellungen öffnen"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Open System Settings"
+          }
+        }
+      }
+    },
+    "dictation_permission_denied": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kein Zugriff auf Mikrofon oder Spracherkennung. Bitte in den Systemeinstellungen erlauben."
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "No access to microphone or speech recognition. Please allow it in System Settings."
+          }
+        }
+      }
+    },
+    "dictation_start": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Diktat starten"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Start dictation"
+          }
+        }
+      }
+    },
+    "dictation_stop": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Diktat beenden"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Stop dictation"
+          }
+        }
+      }
+    },
+    "dictation_unavailable": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Spracherkennung ist gerade nicht verfügbar."
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Speech recognition is currently unavailable."
+          }
+        }
+      }
+    },
+    "done": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Fertig"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Done"
+          }
+        }
+      }
+    },
+    "done_button": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Fertig"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Done"
+          }
+        }
+      }
+    },
+    "edit": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bearbeiten"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Edit"
+          }
+        }
+      }
+    },
+    "edit_food_title": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Eintrag bearbeiten"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Edit Entry"
+          }
+        }
+      }
+    },
+    "error_invalid_url": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ungültige URL"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Invalid URL"
+          }
+        }
+      }
+    },
+    "error_product_not_found": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Produkt nicht gefunden"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Product Not Found"
+          }
+        }
+      }
+    },
+    "error_rate_limited": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Zu viele Anfragen. Bitte kurz warten."
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Too many requests. Please wait a moment."
+          }
+        }
+      }
+    },
+    "error_server": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Serverfehler"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Server Error"
+          }
+        }
+      }
+    },
+    "error_service_unavailable": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Die Lebensmitteldatenbank ist gerade überlastet. Bitte später erneut versuchen."
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The food database is currently overloaded. Please try again later."
+          }
+        }
+      }
+    },
+    "focus_add_barcode": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Barcode scannen"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Scan barcode"
+          }
+        }
+      }
+    },
+    "focus_add_library": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Aus Mediathek"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "From library"
+          }
+        }
+      }
+    },
+    "focus_add_menu": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hinzufügen"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Add"
+          }
+        }
+      }
+    },
+    "focus_add_photo": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Foto aufnehmen"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Take photo"
+          }
+        }
+      }
+    },
+    "focus_add_search": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Lebensmittel suchen"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Search foods"
+          }
+        }
+      }
+    },
+    "focus_barcode_not_found": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Barcode nicht gefunden"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Barcode not found"
+          }
+        }
+      }
+    },
+    "focus_batch_added_%lld": {
+      "extractionState": "stale",
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lld Einträge hinzugefügt"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lld entries added"
+          }
+        }
+      }
+    },
+    "focus_dismiss_keyboard": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tastatur ausblenden"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dismiss keyboard"
+          }
+        }
+      }
+    },
+    "focus_edit_food": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Lebensmittel"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Food"
+          }
+        }
+      }
+    },
+    "focus_edit_grams": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Menge (g)"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Amount (g)"
+          }
+        }
+      }
+    },
+    "focus_edit_name": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Name"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Name"
+          }
+        }
+      }
+    },
+    "focus_edit_per_100g": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nährwerte pro 100 g"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nutrients per 100 g"
+          }
+        }
+      }
+    },
+    "focus_edit_title": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Eintrag bearbeiten"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Edit entry"
+          }
+        }
+      }
+    },
+    "focus_entry_added": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Eintrag hinzugefügt"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Entry added"
+          }
+        }
+      }
+    },
+    "focus_error_nothing_found": {
+      "extractionState": "stale",
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nichts erkannt. Bitte anders formulieren."
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nothing recognized. Please rephrase."
+          }
+        }
+      }
+    },
+    "focus_input_placeholder": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Was hast du gegessen?"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "What did you eat?"
+          }
+        }
+      }
+    },
+    "focus_kcal_remaining": {
+      "extractionState": "stale",
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "kcal übrig"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "kcal left"
+          }
+        }
+      }
+    },
+    "focus_lever_correct": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ändern"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Change"
+          }
+        }
+      }
+    },
+    "focus_lever_explanation": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Der Hebel kommt aus dem wöchentlichen Check-In, die App zeigt ihn nur an. Setzen lässt er sich hier oder per „kk focus set“."
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The lever comes from the weekly check-in; the app only displays it. Set it here or via “kk focus set”."
+          }
+        }
+      }
+    },
+    "focus_lever_history_detail": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tage gehalten"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "days kept"
+          }
+        }
+      }
+    },
+    "focus_lever_kept": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Gehalten"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kept"
+          }
+        }
+      }
+    },
+    "focus_lever_kept_state": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Heute gehalten"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kept today"
+          }
+        }
+      }
+    },
+    "focus_lever_missed": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nicht gehalten"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Missed"
+          }
+        }
+      }
+    },
+    "focus_lever_missed_state": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Heute nicht gehalten"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Missed today"
+          }
+        }
+      }
+    },
+    "focus_lever_placeholder": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Formulierung aus dem Check-In"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Wording from the check-in"
+          }
+        }
+      }
+    },
+    "focus_lever_question": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Heute gehalten?"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kept it today?"
+          }
+        }
+      }
+    },
+    "focus_lever_question_past": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Gehalten?"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kept it?"
+          }
+        }
+      }
+    },
+    "focus_lever_rate": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Gehalten"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kept"
+          }
+        }
+      }
+    },
+    "focus_lever_save": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Als neuen Hebel setzen"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Set as new lever"
+          }
+        }
+      }
+    },
+    "focus_lever_section_current": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Aktueller Hebel"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Current lever"
+          }
+        }
+      }
+    },
+    "focus_lever_section_history": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Frühere Hebel"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Previous levers"
+          }
+        }
+      }
+    },
+    "focus_lever_section_trigger": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Wann einblenden"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "When to highlight"
+          }
+        }
+      }
+    },
+    "focus_lever_section_week": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Letzte sieben Tage"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Last seven days"
+          }
+        }
+      }
+    },
+    "focus_lever_since": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Aktiv seit"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Active since"
+          }
+        }
+      }
+    },
+    "focus_lever_stale_hint": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Seit über einer Woche unverändert"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Unchanged for over a week"
+          }
+        }
+      }
+    },
+    "focus_lever_title": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hebel"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Current lever"
+          }
+        }
+      }
+    },
+    "focus_lever_trigger_always": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Immer"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Always"
+          }
+        }
+      }
+    },
+    "focus_lever_trigger_footer": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ausserhalb dieser Zeiten bleibt der Hebel sichtbar, nur ohne farbliche Hervorhebung."
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Outside these times the focus lever stays visible, just without the color highlight."
+          }
+        }
+      }
+    },
+    "focus_lever_trigger_hour": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hervorheben ab"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Highlight from"
+          }
+        }
+      }
+    },
+    "focus_lever_trigger_snack": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Auch nach Snack und Abendessen"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Also after snacks and dinner"
+          }
+        }
+      }
+    },
+    "focus_missing_key_hint": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Für die automatische Erkennung wird ein Claude-API-Schlüssel benötigt."
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The automatic recognition needs a Claude API key."
+          }
+        }
+      }
+    },
+    "focus_missing_key_title": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "KI-Schlüssel fehlt"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "AI key missing"
+          }
+        }
+      }
+    },
+    "focus_open_settings": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Einstellungen öffnen"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Open settings"
+          }
+        }
+      }
+    },
+    "focus_photo_analyze": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Analysieren"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Analyze"
+          }
+        }
+      }
+    },
+    "focus_photo_note_hint": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ein kurzer Hinweis verbessert die KI-Erkennung."
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "A short note improves AI recognition."
+          }
+        }
+      }
+    },
+    "focus_photo_note_placeholder": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Was ist auf dem Foto? (optional)"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "What's in the photo? (optional)"
+          }
+        }
+      }
+    },
+    "focus_photo_note_title": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Foto beschreiben"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Describe photo"
+          }
+        }
+      }
+    },
+    "focus_plan_placeholder": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Was planst du?"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "What are you planning?"
+          }
+        }
+      }
+    },
+    "focus_plan_toggle": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mahlzeit planen"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Plan a meal"
+          }
+        }
+      }
+    },
+    "focus_title": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Fokus"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Focus"
+          }
+        }
+      }
+    },
+    "focus_today": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Heute"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Today"
+          }
+        }
+      }
+    },
+    "focus_undo": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Rückgängig"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Undo"
+          }
+        }
+      }
+    },
+    "g": {},
+    "gender_female": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Weiblich"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Female"
+          }
+        }
+      }
+    },
+    "gender_male": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Männlich"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Male"
+          }
+        }
+      }
+    },
+    "goal_current_weight": {
+      "extractionState": "stale",
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Aktuelles Gewicht"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Current Weight"
+          }
+        }
+      }
+    },
+    "goal_estimated_date": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Geschätztes Zieldatum"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Estimated Goal Date"
+          }
+        }
+      }
+    },
+    "goal_prefix": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ziel:"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Goal:"
+          }
+        }
+      }
+    },
+    "goal_safety_warning": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Das berechnete Ziel liegt unter der empfohlenen Mindestmenge. Das Defizit wurde automatisch angepasst."
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The calculated goal is below the recommended minimum. The deficit has been adjusted automatically."
+          }
+        }
+      }
+    },
+    "goal_section_title": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mein Ziel"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "My Goal"
+          }
+        }
+      }
+    },
+    "goal_start_date": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Startdatum"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Start Date"
+          }
+        }
+      }
+    },
+    "goal_start_weight": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Startgewicht"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Starting Weight"
+          }
+        }
+      }
+    },
+    "goal_suffix": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ziel"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "goal"
+          }
+        }
+      }
+    },
+    "goal_target_weight": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Zielgewicht"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Target Weight"
+          }
+        }
+      }
+    },
+    "goal_type_gain": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Zunehmen"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Gain Weight"
+          }
+        }
+      }
+    },
+    "goal_type_label": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ziel"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Goal"
+          }
+        }
+      }
+    },
+    "goal_type_lose": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Abnehmen"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Lose Weight"
+          }
+        }
+      }
+    },
+    "goal_type_maintain": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Gewicht halten"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Maintain Weight"
+          }
+        }
+      }
+    },
+    "goal_weekly_rate": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Wochenziel"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Weekly Goal"
+          }
+        }
+      }
+    },
+    "goal_weeks": {
+      "extractionState": "stale",
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Wochen"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "weeks"
+          }
+        }
+      }
+    },
+    "kcal": {},
+    "kcal %@": {},
+    "kg": {},
+    "meal_breakfast": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Frühstück"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Breakfast"
+          }
+        }
+      }
+    },
+    "meal_by_time": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nach Uhrzeit"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "By time of day"
+          }
+        }
+      }
+    },
+    "meal_card_no_entries": {
+      "extractionState": "stale",
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Noch nichts eingetragen"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "No entries yet"
+          }
+        }
+      }
+    },
+    "meal_coffee_break": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kaffeepause"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Coffee Break"
+          }
+        }
+      }
+    },
+    "meal_dinner": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Abendessen"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dinner"
+          }
+        }
+      }
+    },
+    "meal_lunch": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mittagessen"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Lunch"
+          }
+        }
+      }
+    },
+    "meal_second_breakfast": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "2. Frühstück"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Second Breakfast"
+          }
+        }
+      }
+    },
+    "meal_snack": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Snack"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Snack"
+          }
+        }
+      }
+    },
+    "meal_total": {
+      "extractionState": "stale",
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Gesamt"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Total"
+          }
+        }
+      }
+    },
+    "meal_type_label": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mahlzeit"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Meal"
+          }
+        }
+      }
+    },
+    "meals_title": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mahlzeiten"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Meals"
+          }
+        }
+      }
+    },
+    "menu_ai": {
+      "extractionState": "stale",
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "KI"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "AI"
+          }
+        }
+      }
+    },
+    "menu_ai_quick_entry": {
+      "extractionState": "stale",
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "KI-Schnelleingabe…"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "AI Quick Entry…"
+          }
+        }
+      }
+    },
+    "menu_ai_recognize": {
+      "extractionState": "stale",
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "KI-Erkennung…"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "AI Recognition…"
+          }
+        }
+      }
+    },
+    "menu_day": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tag"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Day"
+          }
+        }
+      }
+    },
+    "menu_entry": {
+      "extractionState": "stale",
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Eintrag"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Entry"
+          }
+        }
+      }
+    },
+    "menu_focus_dictate": {
+      "extractionState": "extracted_with_value",
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "new",
+            "value": "Essen diktieren…"
+          }
+        }
+      }
+    },
+    "menu_focus_entry": {
+      "extractionState": "extracted_with_value",
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "new",
+            "value": "Eintrag"
+          }
+        }
+      }
+    },
+    "menu_focus_type": {
+      "extractionState": "extracted_with_value",
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "new",
+            "value": "Essen eintragen"
+          }
+        }
+      }
+    },
+    "menu_navigation": {
+      "extractionState": "stale",
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Navigation"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Navigation"
+          }
+        }
+      }
+    },
+    "menu_next_day": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nächster Tag"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Next Day"
+          }
+        }
+      }
+    },
+    "menu_previous_day": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Vorheriger Tag"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Previous Day"
+          }
+        }
+      }
+    },
+    "menu_search_food": {
+      "extractionState": "stale",
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Lebensmittel suchen"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Search Food"
+          }
+        }
+      }
+    },
+    "menu_settings": {
+      "extractionState": "extracted_with_value",
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "new",
+            "value": "Einstellungen…"
+          }
+        }
+      }
+    },
+    "menu_today": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Heute"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Today"
+          }
+        }
+      }
+    },
+    "menubar_eaten_of_goal %lld %lld": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Gegessen: %1$lld / %2$lld kcal"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Eaten: %1$lld / %2$lld kcal"
+          }
+        }
+      }
+    },
+    "menubar_open_app": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "App öffnen"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Open App"
+          }
+        }
+      }
+    },
+    "menubar_over_budget_label": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Über dem Budget"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Over Budget"
+          }
+        }
+      }
+    },
+    "menubar_quick_add_placeholder": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Was hast du gegessen?"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "What did you eat?"
+          }
+        }
+      }
+    },
+    "menubar_remaining_label": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Übrig"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Remaining"
+          }
+        }
+      }
+    },
+    "ml": {},
+    "move_to_meal": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Verschieben nach"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Move to"
+          }
+        }
+      }
+    },
+    "name_placeholder": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Name (optional)"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Name (optional)"
+          }
+        }
+      }
+    },
+    "no_data": {
+      "extractionState": "stale",
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Keine Daten"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "No Data"
+          }
+        }
+      }
+    },
+    "no_entries_today": {
+      "extractionState": "stale",
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Noch keine Einträge für heute"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "No entries for today yet"
+          }
+        }
+      }
+    },
+    "no_favorites_description": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Markiere Lebensmittel mit dem Herz-Symbol als Favorit."
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mark foods as favorites using the heart icon."
+          }
+        }
+      }
+    },
+    "no_favorites_title": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Keine Favoriten"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "No Favorites"
+          }
+        }
+      }
+    },
+    "notification_action_add_water": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "250 ml getrunken"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Drank 250 ml"
+          }
+        }
+      }
+    },
+    "notification_action_skip": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Übersprungen"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Skipped"
+          }
+        }
+      }
+    },
+    "notification_action_snooze": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Später erinnern"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Remind later"
+          }
+        }
+      }
+    },
+    "notification_action_track": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Jetzt eintragen"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Track now"
+          }
+        }
+      }
+    },
+    "notification_meal_body %@": {
+      "extractionState": "stale",
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hast du dein %@ schon getrackt?"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Have you tracked your %@ yet?"
+          }
+        }
+      }
+    },
+    "notification_meal_body_gentle %@": {
+      "extractionState": "stale",
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Vergiss nicht dein %@!"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Don't forget your %@!"
+          }
+        }
+      }
+    },
+    "notification_meal_snooze_body": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Vergiss nicht deine Mahlzeit einzutragen!"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Don't forget to log your meal!"
+          }
+        }
+      }
+    },
+    "notification_meal_title": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mahlzeit eintragen"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Log your meal"
+          }
+        }
+      }
+    },
+    "notification_meal_title_gentle": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mahlzeit tracken?"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Track your meal?"
+          }
+        }
+      }
+    },
+    "notification_water_body %lld %lld": {
+      "extractionState": "stale",
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Du liegst %1$lld ml zurück. Noch %2$lld ml bis zum Ziel."
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "You're %1$lld ml behind. %2$lld ml to go."
+          }
+        }
+      }
+    },
+    "notification_water_body_gentle": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ein Glas Wasser tut gut. 💧"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "A glass of water feels good. 💧"
+          }
+        }
+      }
+    },
+    "notification_water_snooze_body": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Vergiss nicht zu trinken!"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Don't forget to drink!"
+          }
+        }
+      }
+    },
+    "notification_water_title": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Trink-Erinnerung"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hydration Reminder"
+          }
+        }
+      }
+    },
+    "notification_water_title_gentle": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Zeit für Wasser!"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Time for water!"
+          }
+        }
+      }
+    },
+    "nutrient_calories": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kalorien"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Calories"
+          }
+        }
+      }
+    },
+    "nutrient_carbs": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kohlenhydrate"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Carbs"
+          }
+        }
+      }
+    },
+    "nutrient_fat": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Fett"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Fat"
+          }
+        }
+      }
+    },
+    "nutrient_fiber": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ballaststoffe"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Fiber"
+          }
+        }
+      }
+    },
+    "nutrient_protein": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Protein"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Protein"
+          }
+        }
+      }
+    },
+    "nutrient_salt": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Salz"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Salt"
+          }
+        }
+      }
+    },
+    "nutrient_saturated_fat": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Gesättigte Fettsäuren"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Saturated Fat"
+          }
+        }
+      }
+    },
+    "nutrient_sugar": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Zucker"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sugar"
+          }
+        }
+      }
+    },
+    "nutrients_per_100g": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nährwerte pro 100g"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nutrients per 100g"
+          }
+        }
+      }
+    },
+    "offline_db_decompressing": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Wird entpackt…"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Decompressing…"
+          }
+        }
+      }
+    },
+    "offline_db_delete": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Löschen"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Delete"
+          }
+        }
+      }
+    },
+    "offline_db_download": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Jetzt herunterladen"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Download now"
+          }
+        }
+      }
+    },
+    "offline_db_downloading": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Wird heruntergeladen…"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Downloading…"
+          }
+        }
+      }
+    },
+    "offline_db_installed": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Installiert"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Installed"
+          }
+        }
+      }
+    },
+    "offline_db_not_installed": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nicht installiert"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Not installed"
+          }
+        }
+      }
+    },
+    "offline_db_product_count %@": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@ Produkte"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@ products"
+          }
+        }
+      }
+    },
+    "offline_db_size_info %@": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ca. %@ MB Download"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "approx. %@ MB download"
+          }
+        }
+      }
+    },
+    "offline_db_update": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Aktualisieren"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Update"
+          }
+        }
+      }
+    },
+    "offline_db_version %@": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Version: %@"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Version: %@"
+          }
+        }
+      }
+    },
+    "open_settings": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Einstellungen öffnen"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Open Settings"
+          }
+        }
+      }
+    },
+    "over_label": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "drüber"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "over"
+          }
+        }
+      }
+    },
+    "planned_accept": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Eintragen"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Log now"
+          }
+        }
+      }
+    },
+    "planned_badge": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Geplant"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Planned"
+          }
+        }
+      }
+    },
+    "planned_discard": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Verwerfen"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Discard"
+          }
+        }
+      }
+    },
+    "quick_add_ai": {
+      "extractionState": "stale",
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "KI-Schnelleingabe"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "AI Quick Entry"
+          }
+        }
+      }
+    },
+    "quick_add_barcode": {
+      "extractionState": "stale",
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Barcode scannen"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Scan Barcode"
+          }
+        }
+      }
+    },
+    "quick_add_camera": {
+      "extractionState": "stale",
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "KI-Bilderkennung"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "AI Food Camera"
+          }
+        }
+      }
+    },
+    "quick_add_manual": {
+      "extractionState": "stale",
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Manuelle Eingabe"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Manual Entry"
+          }
+        }
+      }
+    },
+    "quick_add_title": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Schnelleintrag"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Quick Add"
+          }
+        }
+      }
+    },
+    "quick_entry_add": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hinzufügen"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Add"
+          }
+        }
+      }
+    },
+    "quick_entry_calories": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kalorien (kcal)"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Calories (kcal)"
+          }
+        }
+      }
+    },
+    "quick_entry_carbs": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kohlenhydrate (g)"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Carbs (g)"
+          }
+        }
+      }
+    },
+    "quick_entry_default_name": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Schnelleintrag"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Quick entry"
+          }
+        }
+      }
+    },
+    "quick_entry_fat": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Fett (g)"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Fat (g)"
+          }
+        }
+      }
+    },
+    "quick_entry_fiber": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ballaststoffe (g)"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Fiber (g)"
+          }
+        }
+      }
+    },
+    "quick_entry_macros": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nährwerte (optional)"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nutrients (optional)"
+          }
+        }
+      }
+    },
+    "quick_entry_name": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bezeichnung"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Name"
+          }
+        }
+      }
+    },
+    "quick_entry_name_placeholder": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "z.B. Mittagessen Kantine"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "e.g. Lunch at canteen"
+          }
+        }
+      }
+    },
+    "quick_entry_protein": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Protein (g)"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Protein (g)"
+          }
+        }
+      }
+    },
+    "quick_entry_save_description": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Als Lebensmittel speichern und bei Suche anzeigen"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Save as food item and show in search"
+          }
+        }
+      }
+    },
+    "quick_entry_save_for_later": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Für später speichern"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Save for later"
+          }
+        }
+      }
+    },
+    "quick_entry_title": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Schnelleintrag"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Quick Entry"
+          }
+        }
+      }
+    },
+    "remaining_label": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "übrig"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "left"
+          }
+        }
+      }
+    },
+    "save": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Speichern"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Save"
+          }
+        }
+      }
+    },
+    "save_button": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Speichern"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Save"
+          }
+        }
+      }
+    },
+    "search_food_placeholder": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Lebensmittel suchen…"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Search food…"
+          }
+        }
+      }
+    },
+    "search_local_results": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Lokale Ergebnisse"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Local Results"
+          }
+        }
+      }
+    },
+    "search_online_results": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Online-Ergebnisse"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Online Results"
+          }
+        }
+      }
+    },
+    "search_section_offline": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Offline-Datenbank"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Offline Database"
+          }
+        }
+      }
+    },
+    "search_tab_favorites": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Favoriten"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Favorites"
+          }
+        }
+      }
+    },
+    "search_tab_search": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Suche"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Search"
+          }
+        }
+      }
+    },
+    "select_food": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Lebensmittel auswählen"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Select Food"
+          }
+        }
+      }
+    },
+    "select_food_description": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Wähle ein Lebensmittel aus der Liste aus."
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Select a food item from the list."
+          }
+        }
+      }
+    },
+    "select_meal_title": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mahlzeit"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Select Meal"
+          }
+        }
+      }
+    },
+    "selection_clear": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Auswahl aufheben"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Clear selection"
+          }
+        }
+      }
+    },
+    "selection_count %lld": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lld ausgewählt"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lld selected"
+          }
+        }
+      }
+    },
+    "serving_size": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Portionsgröße"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Serving Size"
+          }
+        }
+      }
+    },
+    "settings_about": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Über"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "About"
+          }
+        }
+      }
+    },
+    "settings_activity": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Aktivität"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Activity"
+          }
+        }
+      }
+    },
+    "settings_activity_level": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Aktivitätsfaktor"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Activity Level"
+          }
+        }
+      }
+    },
+    "settings_age": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Alter"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Age"
+          }
+        }
+      }
+    },
+    "settings_auto_calories": {
+      "extractionState": "stale",
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Automatisch berechnen"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Calculate automatically"
+          }
+        }
+      }
+    },
+    "settings_auto_calories_hint": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dein optimaler Tagesbedarf wird anhand deiner persönlichen Daten automatisch berechnet. Du kannst den Wert jederzeit manuell anpassen."
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Your optimal daily calorie need is calculated automatically based on your personal data. You can adjust the value manually at any time."
+          }
+        }
+      }
+    },
+    "settings_body_weight": {
+      "extractionState": "stale",
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Gewicht (kg)"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Weight (kg)"
+          }
+        }
+      }
+    },
+    "settings_build": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Build"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Build"
+          }
+        }
+      }
+    },
+    "settings_build_type": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Build-Typ"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Build Type"
+          }
+        }
+      }
+    },
+    "settings_calculated_goal": {
+      "extractionState": "stale",
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Berechneter Tagesbedarf"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Calculated daily need"
+          }
+        }
+      }
+    },
+    "settings_calories": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kalorien"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Calories"
+          }
+        }
+      }
+    },
+    "settings_carbs": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kohlenhydrate"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Carbs"
+          }
+        }
+      }
+    },
+    "settings_coffee_caffeine_per_cup": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Koffein pro Tasse (mg)"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Caffeine per cup (mg)"
+          }
+        }
+      }
+    },
+    "settings_coffee_goal": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tagesziel (Tassen)"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Daily goal (cups)"
+          }
+        }
+      }
+    },
+    "settings_coffee_hint": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kaffee wird nicht in die Kalorienbilanz eingerechnet. Koffein wird als Schätzung an Apple Health übermittelt."
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Coffee is not counted against your calorie budget. Caffeine is sent to Apple Health as an estimate."
+          }
+        }
+      }
+    },
+    "settings_coffee_ml_per_cup": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tassengröße (ml)"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cup size (ml)"
+          }
+        }
+      }
+    },
+    "settings_coffee_section": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kaffee"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Coffee"
+          }
+        }
+      }
+    },
+    "settings_coffee_weekend_goal": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Wochenend-Ziel (Tassen)"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Weekend goal (cups)"
+          }
+        }
+      }
+    },
+    "settings_coffee_weekend_hint": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "An ausgewählten Tagen gilt das Wochenend-Ziel statt des Werktags-Ziels. Standard: Freitag, Samstag, Sonntag."
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "On selected days the weekend goal replaces the weekday goal. Default: Friday, Saturday, Sunday."
+          }
+        }
+      }
+    },
+    "settings_coffee_weekend_section": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kaffee am Wochenende"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Coffee on Weekends"
+          }
+        }
+      }
+    },
+    "settings_daily_goal": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tagesziel"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Daily Goal"
+          }
+        }
+      }
+    },
+    "settings_exercise_credit": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Anrechnung Sport"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Exercise Credit"
+          }
+        }
+      }
+    },
+    "settings_exercise_credit_hint": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Wie viel Prozent der Sportkalorien angerechnet werden. Empfohlen: ca. 50% beim Abnehmen."
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Percentage of exercise calories credited. Recommended: ~50% for weight loss."
+          }
+        }
+      }
+    },
+    "settings_fat": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Fett"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Fat"
+          }
+        }
+      }
+    },
+    "settings_fiber": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ballaststoffe"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Fiber"
+          }
+        }
+      }
+    },
+    "settings_gender": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Geschlecht"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Gender"
+          }
+        }
+      }
+    },
+    "settings_healthkit_activity": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Aktivitätskalorien aus Apple Watch"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Activity calories from Apple Watch"
+          }
+        }
+      }
+    },
+    "settings_healthkit_bonus_hint": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dein Kalorienziel basiert auf dem Aktivitätsfaktor (TDEE). Die Apple Watch gibt dir einen Bonus, wenn deine tatsächliche Bewegung die erwartete Aktivität übersteigt."
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Your calorie goal is based on the activity factor (TDEE). Apple Watch gives you a bonus when your actual movement exceeds the expected activity."
+          }
+        }
+      }
+    },
+    "settings_healthkit_pal_hint": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Die Apple Watch erhöht dein Tagesziel nur, wenn deine gemessene Bewegung diesen Wert übersteigt."
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Apple Watch only increases your daily goal when your measured movement exceeds this value."
+          }
+        }
+      }
+    },
+    "settings_height": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Größe (cm)"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Height (cm)"
+          }
+        }
+      }
+    },
+    "settings_macros": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Makronährstoffe"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Macronutrients"
+          }
+        }
+      }
+    },
+    "settings_meal_reminders": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mahlzeiten-Erinnerungen"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Meal Reminders"
+          }
+        }
+      }
+    },
+    "settings_notifications_footer": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Erinnerungen werden intelligent unterdrückt, wenn du dein Ziel bereits erreicht hast."
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Reminders are intelligently suppressed when you've already reached your goal."
+          }
+        }
+      }
+    },
+    "settings_off": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Aus"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Off"
+          }
+        }
+      }
+    },
+    "settings_offline_database": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Offline-Datenbank"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Offline Database"
+          }
+        }
+      }
+    },
+    "settings_personal_data": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Persönliche Daten"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Personal Data"
+          }
+        }
+      }
+    },
+    "settings_protein": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Protein"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Protein"
+          }
+        }
+      }
+    },
+    "settings_quiet_time": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ruhezeit"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Quiet Time"
+          }
+        }
+      }
+    },
+    "settings_repair_sync": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sync reparieren"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Repair Sync"
+          }
+        }
+      }
+    },
+    "settings_repair_sync_confirm_action": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Reparieren"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Repair"
+          }
+        }
+      }
+    },
+    "settings_repair_sync_confirm_message": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Die CloudKit-Zone wird gelöscht und alle lokalen Daten werden neu synchronisiert. Bitte starte die App danach neu."
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The CloudKit zone will be deleted and all local data will be re-synced. Please restart the app afterwards."
+          }
+        }
+      }
+    },
+    "settings_repair_sync_confirm_title": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sync wirklich reparieren?"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Really repair sync?"
+          }
+        }
+      }
+    },
+    "settings_repair_sync_error": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Reparatur fehlgeschlagen"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Repair failed"
+          }
+        }
+      }
+    },
+    "settings_repair_sync_footer": {
+      "extractionState": "stale",
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Falls die Synchronisierung zwischen Geräten nicht funktioniert, kann eine Reparatur helfen. Lokale Daten bleiben erhalten."
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "If sync between devices is not working, a repair may help. Local data is preserved."
+          }
+        }
+      }
+    },
+    "settings_repair_sync_restart_hint": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bitte starte die App neu, damit die Synchronisierung neu aufgebaut wird."
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Please restart the app so that sync can be re-established."
+          }
+        }
+      }
+    },
+    "settings_repair_sync_running": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Wird repariert …"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Repairing …"
+          }
+        }
+      }
+    },
+    "settings_repair_sync_success": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Reparatur erfolgreich"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Repair successful"
+          }
+        }
+      }
+    },
+    "settings_section_cloudkit": {
+      "extractionState": "stale",
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "iCloud-Synchronisierung"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "iCloud Sync"
+          }
+        }
+      }
+    },
+    "settings_section_notifications": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Benachrichtigungen"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Notifications"
+          }
+        }
+      }
+    },
+    "settings_siri": {
+      "extractionState": "manual",
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Siri"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Siri"
+          }
+        }
+      }
+    },
+    "settings_siri_phrase_coffee": {
+      "extractionState": "manual",
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "„Kaffee trinken in KalorienKompass“"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "“Log coffee in KalorienKompass”"
+          }
+        }
+      }
+    },
+    "settings_siri_phrase_food": {
+      "extractionState": "manual",
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "„Ich habe gegessen in KalorienKompass“"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "“I just ate in KalorienKompass”"
+          }
+        }
+      }
+    },
+    "settings_siri_phrase_water": {
+      "extractionState": "manual",
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "„Wasser trinken in KalorienKompass“"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "“Log water in KalorienKompass”"
+          }
+        }
+      }
+    },
+    "settings_steps_goal": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Schritteziel"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Steps Goal"
+          }
+        }
+      }
+    },
+    "settings_version": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Version"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Version"
+          }
+        }
+      }
+    },
+    "settings_water_goal": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Wasserziel"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Water Goal"
+          }
+        }
+      }
+    },
+    "settings_water_reminders": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Wasser-Erinnerungen"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Water Reminders"
+          }
+        }
+      }
+    },
+    "settings_weekend_bonus": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Wochenend-Bonus"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Weekend Bonus"
+          }
+        }
+      }
+    },
+    "settings_weekend_bonus_hint": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Erhöht den Tagesbedarf am Wochenende. Empfohlen: 10% oder weniger."
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Increases daily goal on weekends. Recommended: 10% or less."
+          }
+        }
+      }
+    },
+    "settings_weight": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Gewicht"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Weight"
+          }
+        }
+      }
+    },
+    "settings_weight_unit": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Gewichtseinheit"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Weight Unit"
+          }
+        }
+      }
+    },
+    "settings_whats_new": {
+      "extractionState": "manual",
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Was ist neu"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "What's new"
+          }
+        }
+      }
+    },
+    "sidebar_cloudkit": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "iCloud Sync"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "iCloud Sync"
+          }
+        }
+      }
+    },
+    "sidebar_food_search": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Suche"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Search"
+          }
+        }
+      }
+    },
+    "sidebar_profile": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Profil"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Profile"
+          }
+        }
+      }
+    },
+    "sidebar_settings": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Einstellungen"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Settings"
+          }
+        }
+      }
+    },
+    "steps_label": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Schritte"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Steps"
+          }
+        }
+      }
+    },
+    "streak_meal_14": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Zwei Wochen – eine echte Gewohnheit!"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Two weeks – a real habit!"
+          }
+        }
+      }
+    },
+    "streak_meal_3": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "3 Tage alle Mahlzeiten getrackt!"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "3 days of tracking all meals!"
+          }
+        }
+      }
+    },
+    "streak_meal_30": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ein Monat Tracking-Meister!"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "One month tracking master!"
+          }
+        }
+      }
+    },
+    "streak_meal_7": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Eine Woche konsequent dabei!"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "One week of consistency!"
+          }
+        }
+      }
+    },
+    "streak_water_14": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Zwei Wochen durchgehalten!"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Two weeks strong!"
+          }
+        }
+      }
+    },
+    "streak_water_3": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "3 Tage Wasserziel erreicht!"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "3 days water goal reached!"
+          }
+        }
+      }
+    },
+    "streak_water_30": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ein ganzer Monat – du bist fantastisch!"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "A whole month – you're amazing!"
+          }
+        }
+      }
+    },
+    "streak_water_7": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Eine Woche perfekt hydriert!"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "One week perfectly hydrated!"
+          }
+        }
+      }
+    },
+    "sync_error_network": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Keine Internetverbindung"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "No internet connection"
+          }
+        }
+      }
+    },
+    "sync_error_not_authenticated": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nicht bei iCloud angemeldet"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Not signed in to iCloud"
+          }
+        }
+      }
+    },
+    "sync_error_quota": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "iCloud-Speicher voll"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "iCloud storage full"
+          }
+        }
+      }
+    },
+    "sync_error_schema": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "CloudKit-Schema veraltet — bitte App aktualisieren"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "CloudKit schema outdated — please update the app"
+          }
+        }
+      }
+    },
+    "sync_last_sync %@": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Letzter Sync: %@"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Last sync: %@"
+          }
+        }
+      }
+    },
+    "sync_status_error": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Synchronisierungsfehler"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sync error"
+          }
+        }
+      }
+    },
+    "sync_status_syncing": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Synchronisierung…"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Syncing…"
+          }
+        }
+      }
+    },
+    "sync_status_unknown": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sync-Status unbekannt"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sync status unknown"
+          }
+        }
+      }
+    },
+    "sync_status_up_to_date": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Daten auf dem neuesten Stand"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Data up to date"
+          }
+        }
+      }
+    },
+    "traffic_light_no_nutrients": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Keine Nährwerte hinterlegt"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "No nutrition data"
+          }
+        }
+      }
+    },
+    "traffic_light_unknown_accessibility": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nährstoff-Ampel: keine Angabe"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nutrient traffic light: no data"
+          }
+        }
+      }
+    },
+    "watch_ai_confirm_button": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Eintragen"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Add Entry"
+          }
+        }
+      }
+    },
+    "watch_ai_estimate_button": {
+      "extractionState": "stale",
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Schätzen"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Estimate"
+          }
+        }
+      }
+    },
+    "watch_ai_loading": {
+      "extractionState": "stale",
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "KI schätzt..."
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "AI estimating..."
+          }
+        }
+      }
+    },
+    "watch_ai_placeholder": {
+      "extractionState": "stale",
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Was hast du gegessen?"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "What did you eat?"
+          }
+        }
+      }
+    },
+    "watch_ai_retry": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Erneut versuchen"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Try again"
+          }
+        }
+      }
+    },
+    "watch_ai_title": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "KI-Schnelleintrag"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "AI Quick Entry"
+          }
+        }
+      }
+    },
+    "watch_focus_booked": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Gebucht"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Logged"
+          }
+        }
+      }
+    },
+    "watch_focus_speak": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sag, was du isst"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Say what you ate"
+          }
+        }
+      }
+    },
+    "watch_focus_undo": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Rückgängig"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Undo"
+          }
+        }
+      }
+    },
+    "water_add_250": {
+      "extractionState": "stale",
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "+250 ml"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "+250 ml"
+          }
+        }
+      }
+    },
+    "water_add_500": {
+      "extractionState": "stale",
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "+500 ml"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "+500 ml"
+          }
+        }
+      }
+    },
+    "water_goal_of %lld": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "von %lld ml"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "of %lld ml"
+          }
+        }
+      }
+    },
+    "water_label": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Wasser"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Water"
+          }
+        }
+      }
+    },
+    "water_manual_entry": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Menge eingeben"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Enter amount"
+          }
+        }
+      }
+    },
+    "water_title": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Wasser"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Water"
+          }
+        }
+      }
+    },
+    "weekday_friday": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Freitag"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Friday"
+          }
+        }
+      }
+    },
+    "weekday_monday": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Montag"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Monday"
+          }
+        }
+      }
+    },
+    "weekday_saturday": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Samstag"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Saturday"
+          }
+        }
+      }
+    },
+    "weekday_sunday": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sonntag"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sunday"
+          }
+        }
+      }
+    },
+    "weekday_thursday": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Donnerstag"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Thursday"
+          }
+        }
+      }
+    },
+    "weekday_tuesday": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dienstag"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tuesday"
+          }
+        }
+      }
+    },
+    "weekday_wednesday": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mittwoch"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Wednesday"
+          }
+        }
+      }
+    },
+    "weekly_rate_fast": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Schnell (-0,75 kg)"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Fast (-0.75 kg)"
+          }
+        }
+      }
+    },
+    "weekly_rate_moderate": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Moderat (-0,50 kg)"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Moderate (-0.50 kg)"
+          }
+        }
+      }
+    },
+    "weekly_rate_slow": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Langsam (-0,25 kg)"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Slow (-0.25 kg)"
+          }
+        }
+      }
+    },
+    "weekly_rate_very_fast": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sehr schnell (-1,0 kg)"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Very fast (-1.0 kg)"
+          }
+        }
+      }
+    },
+    "weight_chart_no_data": {
+      "extractionState": "stale",
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Noch keine Gewichtsdaten vorhanden"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "No weight data available yet"
+          }
+        }
+      }
+    },
+    "weight_chart_remaining %@": {
+      "extractionState": "stale",
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Noch %@ kg"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@ kg remaining"
+          }
+        }
+      }
+    },
+    "weight_chart_title": {
+      "extractionState": "stale",
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Gewichtsverlauf"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Weight History"
+          }
+        }
+      }
+    },
+    "weight_enter": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Gewicht eingeben"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Enter Weight"
+          }
+        }
+      }
+    },
+    "weight_healthkit_hint": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Wird mit Apple Health synchronisiert"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Syncs with Apple Health"
+          }
+        }
+      }
+    },
+    "weight_no_value": {
+      "extractionState": "stale",
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nicht erfasst"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Not recorded"
+          }
+        }
+      }
+    },
+    "weight_save": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Speichern"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Save"
+          }
+        }
+      }
+    },
+    "weight_title": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Gewicht"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Weight"
+          }
+        }
+      }
+    },
+    "widget_add_water": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Wasser hinzufügen"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Add water"
+          }
+        }
+      }
+    },
+    "widget_burned": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Verbrannt"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Burned"
+          }
+        }
+      }
+    },
+    "widget_calories_description": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tagesübersicht Kalorien"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Daily calorie overview"
+          }
+        }
+      }
+    },
+    "widget_calories_title": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kalorien"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Calories"
+          }
+        }
+      }
+    },
+    "widget_eaten": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Gegessen"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Eaten"
+          }
+        }
+      }
+    },
+    "widget_lockscreen_calories_description": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Restkalorien auf dem Sperrbildschirm"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Remaining calories on the Lock Screen"
+          }
+        }
+      }
+    },
+    "widget_lockscreen_calories_title": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kalorien (Sperrbildschirm)"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Calories (Lock Screen)"
+          }
+        }
+      }
+    },
+    "widget_meals_description": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kalorienfortschritt pro Mahlzeit"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Calorie progress per meal"
+          }
+        }
+      }
+    },
+    "widget_meals_title": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mahlzeiten"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Meals"
+          }
+        }
+      }
+    },
+    "widget_over": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "drüber"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "over"
+          }
+        }
+      }
+    },
+    "widget_remaining": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Übrig"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Remaining"
+          }
+        }
+      }
+    },
+    "widget_remove_water": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Wasser entfernen"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Remove water"
+          }
+        }
+      }
+    },
+    "widget_water_description": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Wasseraufnahme mit Schnellzugriff"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Water intake with quick access"
+          }
+        }
+      }
+    },
+    "widget_water_glasses %lld %lld": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%1$lld von %2$lld Gläsern"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%1$lld of %2$lld glasses"
+          }
+        }
+      }
+    },
+    "widget_water_title": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Wasser"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Water"
+          }
+        }
+      }
+    },
+    "workout_energy_label": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Training"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Workout"
+          }
+        }
+      }
+    },
+    "workouts_label": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Trainings"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Workouts"
+          }
+        }
+      }
+    },
+    "~%lld g": {},
+    "·": {},
+    "Öffnet KalorienKompass mit fokussiertem Eingabefeld — bereit zum Tippen.": {},
+    "—": {}
+  },
+  "version": "1.0"
+}

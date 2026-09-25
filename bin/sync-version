@@ -1,0 +1,66 @@
+#!/usr/bin/env zsh
+# Generische Vorlage fuer `bin/sync-version` — nach `<projekt>/bin/sync-version`
+# kopieren und MODE ggf. anpassen. Synchronisiert MARKETING_VERSION mit dem Inhalt
+# der VERSION-Datei, damit die Version an genau EINER Stelle gepflegt wird und der
+# eingecheckte Wert nie driftet. Vor jedem Build aufrufen (Fastlane + CI).
+#
+# Siehe ~/Projects/swift/versionierung-standard.md, Regel 1.
+#
+# MODE:
+#   xcgen   → project.yml wird gepatcht + `xcodegen generate` (Standard fuer Menubar-Apps)
+#   pbxproj → *.xcodeproj/project.pbxproj wird direkt gepatcht (rohe Xcode-Projekte)
+set -e
+
+MODE="${SYNC_VERSION_MODE:-xcgen}"   # oder per Argument: bin/sync-version pbxproj
+[[ -n "$1" ]] && MODE="$1"
+
+PROJECT_DIR="$(cd "$(dirname "$0")/.." && pwd)"
+cd "$PROJECT_DIR"
+
+# VERSION-Ort: Root, sonst eingebettetes CLI-Package (z.B. JournalKit/VERSION).
+VERSION_FILE="VERSION"
+if [[ ! -f "$VERSION_FILE" ]]; then
+  VERSION_FILE="$(find . -maxdepth 2 -name VERSION -not -path '*/.build/*' | head -1)"
+fi
+if [[ -z "$VERSION_FILE" || ! -f "$VERSION_FILE" ]]; then
+  echo "✗ Keine VERSION-Datei gefunden in $PROJECT_DIR" >&2
+  exit 1
+fi
+
+VERSION="$(tr -d '[:space:]' < "$VERSION_FILE")"
+if [[ -z "$VERSION" ]]; then
+  echo "✗ VERSION-Datei ($VERSION_FILE) ist leer" >&2
+  exit 1
+fi
+
+case "$MODE" in
+  xcgen)
+    CURRENT="$(grep -m1 'MARKETING_VERSION:' project.yml | sed -E 's/.*"([^"]+)".*/\1/')"
+    [[ "$CURRENT" == "$VERSION" ]] && exit 0
+    echo "▶ Synchronisiere MARKETING_VERSION: $CURRENT → $VERSION (project.yml)"
+    sed -i '' -E "s/MARKETING_VERSION: \"[^\"]+\"/MARKETING_VERSION: \"$VERSION\"/g" project.yml
+    if ! command -v xcodegen >/dev/null 2>&1; then
+      echo "✗ xcodegen nicht installiert (brew install xcodegen)" >&2
+      exit 1
+    fi
+    echo "▶ Regeneriere Xcode-Projekt"
+    xcodegen generate >/dev/null
+    ;;
+  pbxproj)
+    PBXPROJ="$(find . -maxdepth 2 -name project.pbxproj | head -1)"
+    if [[ -z "$PBXPROJ" ]]; then
+      echo "✗ Kein project.pbxproj gefunden" >&2
+      exit 1
+    fi
+    CURRENT="$(grep -m1 'MARKETING_VERSION = ' "$PBXPROJ" | sed -E 's/.*= ([^;]+);.*/\1/')"
+    [[ "$CURRENT" == "$VERSION" ]] && exit 0
+    echo "▶ Synchronisiere MARKETING_VERSION: $CURRENT → $VERSION ($PBXPROJ)"
+    sed -i '' -E "s/MARKETING_VERSION = [^;]+;/MARKETING_VERSION = $VERSION;/g" "$PBXPROJ"
+    ;;
+  *)
+    echo "✗ Unbekannter MODE: $MODE (erlaubt: xcgen | pbxproj)" >&2
+    exit 1
+    ;;
+esac
+
+echo "✔ Version $VERSION synchronisiert"

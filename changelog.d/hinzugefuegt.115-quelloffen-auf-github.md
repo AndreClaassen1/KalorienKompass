@@ -1,0 +1,1 @@
+Der Quellcode von KalorienKompass ist öffentlich auf GitHub einsehbar, unter der Functional Source License 1.1 mit MIT als späterer Lizenz. Jede Version wird zwei Jahre nach ihrer Veröffentlichung automatisch MIT-lizenziert.

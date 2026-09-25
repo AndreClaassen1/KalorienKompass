@@ -1,0 +1,15 @@
+{
+  "originHash" : "b4cd1ba0bf3c9d4f85f2b1155473786a2d355e5b215ae32bc5ad3c6691e4dac5",
+  "pins" : [
+    {
+      "identity" : "appchangelog",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/AndreClaassen1/AppChangelog.git",
+      "state" : {
+        "revision" : "5940ee1a591ad63b87103571060ed3977ef9ef1a",
+        "version" : "0.1.0"
+      }
+    }
+  ],
+  "version" : 3
+}

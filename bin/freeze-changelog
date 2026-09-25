@@ -1,0 +1,200 @@
+#!/usr/bin/env python3
+"""Friert die offenen Changelog-Eintraege auf eine Version ein.
+
+Aufruf: bin/freeze-changelog <version> [<datum>] [--changelog <pfad>]
+                             [--fragments <verzeichnis>]
+
+Hintergrund: Der `[Unreleased]`-Block ist eine einzige Stelle, in die jeder
+Branch schreibt. Arbeiten mehrere Worktrees parallel, kollidieren sie dort fast
+bei jedem Merge, und wo ein Release-Job die Version selbst berechnet und
+committet, kollidiert er zusaetzlich mit ihnen. Eine Datei je Aenderung loest
+das strukturell: zwei Branches beruehren nie dieselbe Datei.
+
+Datiert werden kann der Block erst, wenn die Zielnummer feststeht. Deshalb
+gehoert dieser Schritt in den Versions-Bump und nicht in den Feature-Branch.
+
+Quellen der Eintraege (beide werden zusammengefuehrt):
+
+1. `changelog.d/` — eine Datei je Aenderung, benannt `<rubrik>.<slug>.md`, etwa
+   `behoben.159-puls.md`. Das ist der empfohlene Weg.
+2. Direkt unter `## [Unreleased]` geschriebene Eintraege — weiter zulaessig,
+   damit der Umstieg nichts bricht und ein schneller Einzeiler moeglich bleibt.
+
+Verhalten:
+- Gibt es weder Fragmente noch Inhalt unter `[Unreleased]`, passiert nichts. Ein
+  Infrastruktur-Release ohne sichtbare Aenderung bekommt keinen leeren Block.
+- Existiert bereits ein Block zur Zielversion (etwa von Hand angelegt), bleibt
+  alles unveraendert und die Fragmente bleiben liegen. Der Aufruf ist damit
+  wiederholbar.
+- Verarbeitete Fragmente werden geloescht; wer den Bump committet, muss
+  `changelog.d` deshalb mit `git add -A` erfassen.
+- Exit-Code ist immer 0, solange die Datei lesbar ist: ein uebersprungener
+  Einfrier-Schritt ist kein Fehler und darf den Release nicht aufhalten.
+
+Mehrere Changelogs in einem Repo (Monorepo) werden ueber `--changelog` und
+`--fragments` je Teilprojekt angesprochen, etwa
+`bin/freeze-changelog 1.2.0 --changelog client/CHANGELOG.md --fragments client/changelog.d`.
+
+Ausgabe auf stdout beschreibt, was getan wurde — im CI-Log nachvollziehbar.
+"""
+
+import argparse
+import datetime
+import pathlib
+import re
+import sys
+
+UNRELEASED = "## [Unreleased]"
+
+# Reihenfolge nach Keep a Changelog. Der Slug im Dateinamen kommt ohne Umlaute
+# aus, damit Dateinamen ueber Systeme hinweg unauffaellig bleiben.
+RUBRIKEN: dict[str, str] = {
+    "hinzugefuegt": "Hinzugefügt",
+    "geaendert": "Geändert",
+    "veraltet": "Veraltet",
+    "entfernt": "Entfernt",
+    "behoben": "Behoben",
+    "sicherheit": "Sicherheit",
+}
+REIHENFOLGE = list(RUBRIKEN.values())
+
+
+def als_aufzaehlung(text: str) -> str:
+    """Formt den Fragment-Text zu Changelog-Aufzaehlungspunkten.
+
+    Bringt der Text seine eigenen `- `-Punkte mit, bleibt er unangetastet — so
+    behaelt der Autor die Kontrolle ueber Unterpunkte und Absaetze. Reine Prosa
+    wird zu einem Punkt mit zwei Leerzeichen Fortsetzungseinzug.
+    """
+    zeilen = [z.rstrip() for z in text.strip().splitlines()]
+    if not zeilen:
+        return ""
+    if zeilen[0].lstrip().startswith("- "):
+        return "\n".join(zeilen)
+    return "\n".join([f"- {zeilen[0]}"] + [f"  {z}" if z else "" for z in zeilen[1:]])
+
+
+def lies_fragmente(verzeichnis: pathlib.Path) -> tuple[dict[str, list[str]], list[pathlib.Path], list[str]]:
+    """Liefert (Eintraege je Rubrik, gelesene Dateien, Warnungen)."""
+    eintraege: dict[str, list[str]] = {}
+    dateien: list[pathlib.Path] = []
+    warnungen: list[str] = []
+
+    if not verzeichnis.is_dir():
+        return eintraege, dateien, warnungen
+
+    for pfad in sorted(verzeichnis.glob("*.md")):
+        if pfad.name.startswith("."):
+            continue
+        slug = pfad.name.split(".", 1)[0].lower()
+        rubrik = RUBRIKEN.get(slug)
+        if rubrik is None:
+            warnungen.append(
+                f"{pfad.name}: unbekannte Rubrik '{slug}' — Datei bleibt liegen "
+                f"(erlaubt: {', '.join(RUBRIKEN)})"
+            )
+            continue
+        inhalt = als_aufzaehlung(pfad.read_text(encoding="utf-8"))
+        if not inhalt:
+            warnungen.append(f"{pfad.name}: leer — Datei bleibt liegen")
+            continue
+        eintraege.setdefault(rubrik, []).append(inhalt)
+        dateien.append(pfad)
+
+    return eintraege, dateien, warnungen
+
+
+def teile_nach_rubrik(body: str) -> tuple[str, dict[str, list[str]]]:
+    """Zerlegt einen `[Unreleased]`-Rumpf in (Vorspann, Eintraege je Rubrik).
+
+    Vorspann ist alles vor der ersten `### `-Ueberschrift — normalerweise leer,
+    wird aber nicht verworfen, damit nichts still verlorengeht.
+    """
+    eintraege: dict[str, list[str]] = {}
+    teile = re.split(r"^### +(.+?) *$", body, flags=re.MULTILINE)
+    vorspann = teile[0].strip()
+    for rubrik, inhalt in zip(teile[1::2], teile[2::2]):
+        inhalt = inhalt.strip()
+        if inhalt:
+            eintraege.setdefault(rubrik.strip(), []).append(inhalt)
+    return vorspann, eintraege
+
+
+def baue_block(vorspann: str, eintraege: dict[str, list[str]]) -> str:
+    """Setzt Vorspann und Rubriken in kanonischer Reihenfolge zusammen."""
+    bekannte = [r for r in REIHENFOLGE if r in eintraege]
+    # Eigene Rubriken (Tippfehler, Sonderfaelle) haengen hinten an, statt zu
+    # verschwinden — der Release soll nichts unterschlagen.
+    unbekannte = [r for r in eintraege if r not in REIHENFOLGE]
+
+    teile = [vorspann] if vorspann else []
+    for rubrik in bekannte + unbekannte:
+        teile.append(f"### {rubrik}\n\n" + "\n".join(eintraege[rubrik]))
+    return "\n\n".join(teile)
+
+
+def freeze(text: str, version: str, date: str, fragmente: dict[str, list[str]]) -> tuple[str, str]:
+    """Liefert (neuer Text, Meldung). Text bleibt unveraendert, wenn nichts zu tun ist."""
+
+    if re.search(rf"^## \[{re.escape(version)}\]", text, re.MULTILINE):
+        return text, f"Block zu {version} existiert bereits — nichts zu tun"
+
+    start = text.find(UNRELEASED)
+    if start == -1:
+        return text, "Kein [Unreleased]-Block gefunden — nichts zu tun"
+
+    body_start = start + len(UNRELEASED)
+    # Bis zur naechsten Versionsueberschrift, sonst bis zum Dateiende.
+    next_heading = re.search(r"^## \[", text[body_start:], re.MULTILINE)
+    body_end = body_start + next_heading.start() if next_heading else len(text)
+
+    vorspann, eintraege = teile_nach_rubrik(text[body_start:body_end])
+    for rubrik, inhalte in fragmente.items():
+        eintraege.setdefault(rubrik, []).extend(inhalte)
+
+    if not vorspann and not eintraege:
+        return text, "Keine offenen Eintraege — kein Block angelegt"
+
+    # Feste Leerzeilen: der Abstand soll unabhaengig davon stimmen, wie viele
+    # Leerzeilen in den Quellen standen.
+    frozen = (
+        f"{UNRELEASED}\n\n"
+        f"## [{version}] – {date}\n\n"
+        f"{baue_block(vorspann, eintraege)}\n\n"
+    )
+    return text[:start] + frozen + text[body_end:], f"[Unreleased] eingefroren als {version} ({date})"
+
+
+def main() -> int:
+    parser = argparse.ArgumentParser(description="Friert die offenen Changelog-Eintraege auf eine Version ein.")
+    parser.add_argument("version", help="Zielversion, etwa 0.7.15")
+    parser.add_argument("date", nargs="?", default=None, help="Datum ISO, Standard ist heute")
+    parser.add_argument("--changelog", default="CHANGELOG.md", help="Pfad zur Changelog-Datei")
+    parser.add_argument("--fragments", default="changelog.d", help="Verzeichnis mit den Fragment-Dateien")
+    args = parser.parse_args()
+
+    path = pathlib.Path(args.changelog)
+    if not path.exists():
+        print(f"==> {path} nicht gefunden — Einfrieren uebersprungen")
+        return 0
+
+    fragmente, dateien, warnungen = lies_fragmente(pathlib.Path(args.fragments))
+    for warnung in warnungen:
+        print(f"==> Warnung: {warnung}")
+
+    date = args.date or datetime.date.today().isoformat()
+    original = path.read_text(encoding="utf-8")
+    updated, message = freeze(original, args.version, date, fragmente)
+
+    if updated != original:
+        path.write_text(updated, encoding="utf-8")
+        for pfad in dateien:
+            pfad.unlink()
+        if dateien:
+            print(f"==> {len(dateien)} Fragment(e) uebernommen und geloescht")
+    print(f"==> {message}")
+    return 0
+
+
+if __name__ == "__main__":
+    sys.exit(main())

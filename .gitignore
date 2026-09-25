@@ -1,0 +1,33 @@
+# Xcode
+*.xcodeproj/project.xcworkspace/xcuserdata/
+*.xcodeproj/xcuserdata/
+*.xcworkspace/xcuserdata/
+*.xcworkspace/xcshareddata/
+DerivedData/
+build/
+*.moved-aside
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+# macOS
+.DS_Store
+
+# Fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots/
+fastlane/test_output
+
+# Bundler (CI-Cache)
+vendor/
+
+# VSCode
+.vscode/
+
+# Secrets (API-Keys)
+Secrets.xcconfig
+
+# Claude
+.claude/
+Gemfile.lock

@@ -1,0 +1,19 @@
+# Dateien mit export-ignore gehen nicht in den GitHub-Spiegel (github-sync).
+# Fastlane haengt an den privaten Helfern in ~/Projects/swift/fastlane-common;
+# die Planungsdateien sind Andres Arbeitsstand, nicht Teil des Projekts.
+.gitlab-ci.yml export-ignore
+CLAUDE.md export-ignore
+.claude/ export-ignore
+fastlane/ export-ignore
+Gemfile export-ignore
+Gemfile.lock export-ignore
+appstore.md export-ignore
+launch.md export-ignore
+social-media-plan.md export-ignore
+Kaffee.md export-ignore
+watch.md export-ignore
+above-and-beyond-features.md export-ignore
+schnelleingabe-ai.md export-ignore
+KalorienKompassWatch/SETUP.md export-ignore
+Assets/icon_temp.afdesign export-ignore
+Assets/icons/icon_temp.png export-ignore
